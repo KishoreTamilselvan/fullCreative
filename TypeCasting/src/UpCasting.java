@@ -1,6 +1,7 @@
 class A{
     int a=20;
     boolean b;
+    final int VALUE=40;
 }
 class B extends A{
     int m;
@@ -15,5 +16,6 @@ public class UpCasting {
         B ref1=(B)ref;//DownCasting
         System.out.println(ref1.m);//Child member
         System.out.println(ref1.b);//Parent member
+        System.out.println(ref.VALUE);//parent final member
     }
 }

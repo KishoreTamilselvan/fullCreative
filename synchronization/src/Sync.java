@@ -1,6 +1,6 @@
 class Counter{
     int count;
-    public synchronized void increment() {
+    public  void increment() {
         //synchronized (this) {
             count++;
         //}
@@ -27,7 +27,7 @@ public class Sync{
         });
         t1.start();
         t2.start();
-        t1.join();//Which holds other strings to complete the current thread execution
+        t1.join();//Which holds main thread to complete the current thread execution
         t2.join();
 
         System.out.println("Count :"+c.count);

@@ -1,11 +1,11 @@
 public class BlockScope {
+    int n=10;
     public static void main(String args[])
     {
         int n=30;
         //int x;
         {
-            // The variable x has scope within
-            // brackets
+            // The variable x has scope within brackets
             int x = 10;
             System.out.println(x);
             System.out.println(n);
