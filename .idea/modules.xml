@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/TypeCasting/TypeCasting.iml" filepath="$PROJECT_DIR$/TypeCasting/TypeCasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionHandling/exceptionHandling.iml" filepath="$PROJECT_DIR$/exceptionHandling/exceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/fullCreative.iml" filepath="$PROJECT_DIR$/fullCreative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/string/string.iml" filepath="$PROJECT_DIR$/string/string.iml" />
       <module fileurl="file://$PROJECT_DIR$/synchronization/synchronization.iml" filepath="$PROJECT_DIR$/synchronization/synchronization.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/varargs/varargs.iml" filepath="$PROJECT_DIR$/varargs/varargs.iml" />
     </modules>
   </component>
 </project>
