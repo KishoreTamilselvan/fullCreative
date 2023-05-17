@@ -52,10 +52,10 @@ class Archer extends Character {
     }
 }
 
-public class GameUI {
+public class Game {
     public static void executeAttacks(Character[] characters) {
         for (int i = 0; i < characters.length; i++) {
-            characters[i].attack(); //We are just going to deal with parent class only
+            characters[i].attack();
         }
     }
     public static void main(String[] args) {

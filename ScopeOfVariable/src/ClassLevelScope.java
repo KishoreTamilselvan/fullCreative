@@ -8,7 +8,7 @@ public class ClassLevelScope {
         this.y = 44;//This y represent the class variable
 
         System.out.println("ClassLevelScope.x: " + ClassLevelScope.x);//x is static so it returns 22
-        System.out.println("t.x: " + t.x);//returns 22
+        System.out.println("t.x: " + t.x);//returns 5
         System.out.println("t.y: " + t.y);//This t.y represents the object which is created with in this block
         System.out.println("y: " + y);//This returns 44
     }
