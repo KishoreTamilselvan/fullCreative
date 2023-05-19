@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScopeOfVariable/ScopeOfVariable.iml" filepath="$PROJECT_DIR$/ScopeOfVariable/ScopeOfVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/TypeCasting/TypeCasting.iml" filepath="$PROJECT_DIR$/TypeCasting/TypeCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionHandling/exceptionHandling.iml" filepath="$PROJECT_DIR$/exceptionHandling/exceptionHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/fullCreative.iml" filepath="$PROJECT_DIR$/fullCreative.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />

@@ -47,7 +47,7 @@ public class ExternalizableDemo implements Externalizable {
         // Deserialization
         FileInputStream fis = new FileInputStream("abc.ser");
         ObjectInputStream ois = new ObjectInputStream(fis);
-        //readObject returns object so we need to downcast it to access the data
+        //readObject returns object, so we need to downcast it to access the data
         ExternalizableDemo t2 = (ExternalizableDemo)ois.readObject();
 
         // Display message
