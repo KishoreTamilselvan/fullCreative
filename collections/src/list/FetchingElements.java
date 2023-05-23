@@ -1,6 +1,7 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.ListIterator;
 
@@ -17,6 +18,10 @@ public class FetchingElements {
 //        while(itr.hasNext()){
 //            System.out.println(itr.next());
 //        }
+
+        //Sort the collection
+        Collections.sort(products);
+
         for (String e:products) {// Using for each loop //If collection is non-generic then we use object as a datatype
             System.out.println(e);
         }

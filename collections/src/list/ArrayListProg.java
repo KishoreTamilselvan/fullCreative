@@ -1,6 +1,7 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListProg {
     //It is a implementing class of list interface
@@ -70,6 +71,7 @@ public class ArrayListProg {
         System.out.println(products);//[]-- empty collection
 
         //Check the collection is empty or not
-        if(products.isEmpty()) System.out.println("This collection is empty");
+        if(products.isEmpty())
+            System.out.println("This collection is empty");
     }
 }

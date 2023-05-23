@@ -18,8 +18,9 @@ public class HashMapExample {
         finmap.putAll(ausmap);
         System.out.println(finmap);//{8=Virat, 1=Smith, 10=Rohit, 2=Maxwell, 22=Warner, 7=Dohni}
 
-        //Replace value using key
-        finmap.replace(2,"Raina");
+        //Replace value using overloaded replace() method
+//        finmap.replace(2,"Raina");
+        finmap.replace(2,"Maxwell","Denver");
         System.out.println(finmap);
 
         System.out.println(finmap.size());//6

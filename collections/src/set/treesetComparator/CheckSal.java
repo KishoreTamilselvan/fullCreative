@@ -1,4 +1,6 @@
-package set;
+package set.treesetComparator;
+
+import set.treesetComparator.Employee;
 
 import java.util.HashSet;
 

@@ -1,8 +1,8 @@
-package set;
+package set.treesetComparator;
 
 import java.util.Comparator;
 
-public class Employee {
+public class Employee{
     String name;
     int salary;
     int id;

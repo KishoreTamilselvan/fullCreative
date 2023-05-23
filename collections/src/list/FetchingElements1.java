@@ -2,6 +2,7 @@ package list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class FetchingElements1 {
     public static void main(String[] args) {
@@ -14,14 +15,24 @@ public class FetchingElements1 {
         ArrayList ls=new ArrayList();
         ls.add(3);
         ls.add(4);
-        collection1.add(2,ls);
+        collection1.addAll(2,ls);
         System.out.println(collection1);
-        for (Object e:collection1) {
-            System.out.println(e);
-        }
+
+        //Iterate using forloop
+//        for (Object e:collection1) {
+//            System.out.println(e);
+//        }
+
+        //Iterate using iterator
 //        Iterator itr= collection1.iterator();
 //        while (itr.hasNext()){
 //            System.out.println(itr.next());
 //        }
+
+        //It helps to iterate the elements in reverse direction
+        ListIterator li=collection1.listIterator(collection1.size());//we should pass the position of index
+        while(li.hasPrevious()){
+            System.out.println(li.previous());
+        }
     }
 }

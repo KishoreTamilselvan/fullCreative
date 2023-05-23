@@ -5,7 +5,7 @@ public class LinkedHashSetProg {
     public static void main(String []arg)
     {
 
-// Creating an empty LinekdhashSet of string type
+// Creating an empty LinkedhashSet of string type
         LinkedHashSet<String> lhs = new LinkedHashSet<String>();
 
 // Adding elements to the above Set
