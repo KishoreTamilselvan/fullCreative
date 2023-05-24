@@ -23,6 +23,5 @@ public class LinkedlistDemo {
             System.out.println(i);
         }
         System.out.println(value.get(3));//Accessing element using index is increase time complexity
-
     }
 }

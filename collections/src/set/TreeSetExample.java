@@ -5,14 +5,14 @@ import java.util.*;
 public class TreeSetExample {
     public static void main(String[] args) {
         //TreeSet is a homogeneous collection By default it will sort the data in ascending order
-        Set<Integer> coll2=new TreeSet(new Comparator() {
+        TreeSet<Integer> coll2=new TreeSet(new Comparator() {
             @Override
             public int compare(Object o1, Object o2) {
                 Integer obj1=(Integer) o1;
                 Integer obj2=(Integer) o2;
 
-//                return obj1.compareTo(obj2);//Ascending order
-                return obj2.compareTo(obj1);//Descending order
+                return obj1.compareTo(obj2);//Ascending order
+//                return obj2.compareTo(obj1);//Descending order
             }
         });//Integer type of collection
         coll2.add(22);
@@ -22,5 +22,8 @@ public class TreeSetExample {
         coll2.add(70);
 
         System.out.println(coll2);
+
+        System.out.println(coll2.ceiling(46));// It returns the equal or closest greatest element of the specified element
+        System.out.println(coll2.floor(34));// It returns the equal or closest least element of the specified element
     }
 }
