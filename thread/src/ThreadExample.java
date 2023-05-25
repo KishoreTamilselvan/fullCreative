@@ -14,5 +14,11 @@ public class ThreadExample extends Thread { //Or implements Runnable Interface
     public static void main(String[] args) {
         ThreadExample t1=new ThreadExample();
         t1.start();
+        try {
+            t1.join();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("Execution of the main thread");
     }
 }

@@ -9,6 +9,9 @@ class ThreadPriority{
         Thread t1=new RunningThread();
         Thread t2=new RunningThread();
         Thread t3=new RunningThread();
+        t1.setPriority(6);
+        t2.setPriority(8);
+        t3.setPriority(2);
         t1.setName("Audio");
         t2.setName("Video");
         t3.setName("Timer");
@@ -19,10 +22,6 @@ class ThreadPriority{
         System.out.println(t1.getPriority());
         System.out.println(t2.getPriority());
         System.out.println(t3.getPriority());
-
-        t1.setPriority(6);
-        t2.setPriority(8);
-        t3.setPriority(2);
 
         //After setting priority
         System.out.println(t1.getPriority());
