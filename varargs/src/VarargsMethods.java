@@ -2,9 +2,7 @@ public class VarargsMethods {
     // A method that takes varargs(here integers).
     static void fun(int ... a)
     {
-        System.out.print("fun(int ...): " +
-                "Number of args: " + a.length +
-                " Contents: ");
+        System.out.print("fun(int ...): " + "Number of args: " + a.length + " Contents: ");
 
         // using for each loop to display contents of a
         for(int x : a)
@@ -16,9 +14,7 @@ public class VarargsMethods {
     // A method that takes varargs(here booleans).
     static void fun(boolean ... a)
     {
-        System.out.print("fun(boolean ...) " +
-                "Number of args: " + a.length +
-                " Contents: ");
+        System.out.print("fun(boolean ...) " + "Number of args: " + a.length + " Contents: ");
 
         // using for each loop to display contents of a
         for(boolean x : a)
